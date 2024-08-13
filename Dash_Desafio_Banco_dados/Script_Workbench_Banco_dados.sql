@@ -44,4 +44,11 @@ create table departament(
     foreign key (Mgr_ssn) references employee(Ssn)
 );
 
+-- criando tabela dept_locations
+create table dept_locations(
+	Dnumber int not null,
+	Dlocation varchar(15) not null,
+    constraint pk_dept_locations primary key (Dnumber, Dlocation),
+    constraint fk_dept_locations foreign key (Dnumber) references departament (Dnumber)
+);
 
