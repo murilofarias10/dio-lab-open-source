@@ -194,9 +194,11 @@ departament[Dnumber] 1:* project[Dnumber]
 departament[Dnumber] 1:* employee[Dnumber]
 Employee[Ssn] 1:* Dependents[Essn]
 
-
-
-
-
 ******************************************************************************************
-
+5ª ETAPA Visuais
+Criei os seguintes visuais:
+1 titulo: Análise de Recursos Humanos e Projetos
+2 grafico de pizza: Quantidade de funcionários por departamento
+3 grafico de barras: quantidade total de horas por projeto
+4 grafico de disperção em bolas: para mostrar a distruibção da media de salario por departamento com cartoes visuais por departamento
+5 mapa com a localização dos projetos com a somatoria de horas e um treemap por total de horas
